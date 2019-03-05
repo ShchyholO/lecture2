@@ -1,6 +1,6 @@
-ages = {"Alice": 22, "Mark": 12}
+def square(x):
+    return x * x
 
-ages["Jonh"] = 30
-ages["Michle"] = 22
 
-print(ages)
+for i in range(10):
+    print("{} squared is {}".format(i, square(i)))
